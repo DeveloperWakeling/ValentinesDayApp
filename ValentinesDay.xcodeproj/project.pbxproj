@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		33417FDE2216236100849619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33417FDD2216236100849619 /* AppDelegate.swift */; };
 		33417FE02216236100849619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33417FDF2216236100849619 /* ViewController.swift */; };
-		33417FE32216236100849619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33417FE12216236100849619 /* Main.storyboard */; };
 		33417FE52216236100849619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33417FE42216236100849619 /* Assets.xcassets */; };
 		33417FE82216236100849619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33417FE62216236100849619 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		33417FDA2216236100849619 /* ValentinesDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValentinesDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33417FDD2216236100849619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33417FDF2216236100849619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		33417FE22216236100849619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33417FE42216236100849619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33417FE72216236100849619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33417FE92216236100849619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				33417FDD2216236100849619 /* AppDelegate.swift */,
 				33417FDF2216236100849619 /* ViewController.swift */,
-				33417FE12216236100849619 /* Main.storyboard */,
 				33417FE42216236100849619 /* Assets.xcassets */,
 				33417FE62216236100849619 /* LaunchScreen.storyboard */,
 				33417FE92216236100849619 /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				33417FE82216236100849619 /* LaunchScreen.storyboard in Resources */,
 				33417FE52216236100849619 /* Assets.xcassets in Resources */,
-				33417FE32216236100849619 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +139,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		33417FE12216236100849619 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33417FE22216236100849619 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33417FE62216236100849619 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 537R73F4N5;
 				INFOPLIST_FILE = ValentinesDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 537R73F4N5;
 				INFOPLIST_FILE = ValentinesDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

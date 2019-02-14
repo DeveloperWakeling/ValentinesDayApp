@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let vc = ViewController()
+        
+        vc.title = "Hey Gorgeous"
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: vc)
+        
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.tintColor = .white /* #3640c4 */
+        navigationBarAppearance.barTintColor = UIColor(red: 0/255, green: 208/255, blue: 255/255, alpha: 1.0)
+        navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.blue]
         return true
     }
 
@@ -35,10 +46,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        application.applicationIconBadgeNumber = 0;
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+
     }
 
 
